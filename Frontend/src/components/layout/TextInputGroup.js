@@ -12,7 +12,7 @@ export default function TextInputGroup({
   return (
     <div className="form-group mb-4">
     <label htmlFor={name} className='text-sm label-color'>{label}</label>
-    <input name={name} type={type} className='lg:p-3 p-2.5 w-full input outline-none'
+    <input name={name} type={type} className='lg:p-3 p-2.5 w-full input outline-none rounded'
     placeholder={placeholder}
     value={value} 
     />
