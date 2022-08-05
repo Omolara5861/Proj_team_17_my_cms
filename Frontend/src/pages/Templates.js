@@ -1,8 +1,12 @@
 import React from 'react'
+import blog1 from '../assets/img/Rectangle 47.svg';
+import blog2 from '../assets/img/Rectangle 48.svg';
+import landingpage1 from '../assets/img/Rectangle 56.svg';
+import landingpage2 from '../assets/img/Rectangle 67.svg';
 
 export default function Templates() {
     return (
-    <section>
+    <section className='template-page m-9'>
         <div className='header'>
         </div>
         <main>
@@ -11,10 +15,10 @@ export default function Templates() {
                 <div className='title'>
                     <h3>Blogs</h3>
                     <a href='#'>See All</a>
-                    < div className='images'>
-                        <img src='' alt='blog-template' />
-                        <img src='' alt='blog-template' />
-                    </div>
+                </div>
+                < div className='images flex'>
+                    <img src={blog1} alt='blog-template' />
+                    <img src={blog2} alt='blog-template' />
                 </div>
             </div>
 
@@ -22,25 +26,26 @@ export default function Templates() {
             <div className='title'>
                     <h3>Landing Pages</h3>
                     <a href='#'>See All</a>
-                    < div className='images'>
-                        <img src='' alt='landing-page-template' />
-                        <img src='' alt='landing-page-template' />
-                    </div>
             </div>
+            < div className='images flex'>
+                        <img src={landingpage1} alt='landing-page-template' />
+                        <img src={landingpage2} alt='landing-page-template' />
+                </div>
             </div>
 
             <div className='portfolio'>
             <div className='title'>
                     <h3>Portfolio</h3>
                     <a href='#'>See All</a>
-                    < div className='images'>
-                        <div className='portfolio-template'>
+                   
+            </div>
+            < div className='images flex'>
+                    <div className='portfolio-template'>
 
-                        </div>
+                    </div>
 
-                        <div className='portfolio-template'>
+                    <div className='portfolio-template'>
 
-                        </div>
                     </div>
             </div>
             </div>

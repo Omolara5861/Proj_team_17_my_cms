@@ -112,3 +112,19 @@
 .contact-content  h1{
     color: #414345;
 }
+
+/* Template Page Styles */
+.template-page {
+    color: #2B2C2E !important;	
+}
+.title {
+    @apply flex justify-between;
+}
+.template-page img {
+    width: 467px;
+    height: 254px;
+}
+
+.template-page a{
+    color: #402A2E ;
+}
